@@ -373,7 +373,7 @@ function layoutCorrectivos(){
     <p><strong>Como encontró el equipo:</strong> ${encontroCajero}</p>
     <p><strong>Código de error:</strong> ${codigoError.toUpperCase()}</p>
     <p><strong>Causa:</strong> ${cargos(cargoValor, otroCargo)} </p>
-    <p><b>${causa}</b></p>
+    <p>${causa}</p>
     <p><strong>Solución y pruebas: </strong>${solucion} ${voboResultado}</p>
     <p><strong>Voltajes:</strong>
     <p><strong>Voltajes de pared:</strong> F-N:(${fni}) F-T:(${fti}) T-N:(${tni})</p>
